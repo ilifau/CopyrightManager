@@ -1,0 +1,31 @@
+<tr class="{CSS_ROW}">
+<td class="std">
+    <!-- BEGIN checkbox -->
+    <input type="checkbox" name="ref_id[]" value="{REF_ID}"/>
+    <!-- END checkbox -->
+</td>
+<td class="std">
+    <img src="{SRC_ICON}" title="{ALT_ICON}" alt="{ALT_ICON}"/>
+    <!-- BEGIN linked_title -->
+    <a target="_blank" href="{URL}">{TITLE}</a>
+    <!-- END linked_title -->
+    <!-- BEGIN unlinked_title -->
+    {UNLINKED_TITLE}
+    <!-- END unlinked_title -->
+    <br /><span class="small">{PATH}</span>
+</td>
+<!-- BEGIN column -->
+<td class="std">{CONTENT}</td>
+<!-- END column -->
+<td class="std">
+    {COPYRIGHT_SELECTION}
+    <!-- BEGIN inherited -->
+    <br /><span class="small">{INHERIT_TITLE}: {INHERIT_COPYRIGHT}</span>
+    <!-- END inherited -->
+</td>
+<td class="std small">
+<!-- BEGIN actions -->
+    <a href="{ACTION_URL}">{ACTION_TITLE}</a>
+<!-- END actions -->
+</td>
+</tr>

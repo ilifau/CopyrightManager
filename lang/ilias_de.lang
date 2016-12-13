@@ -1,0 +1,27 @@
+//
+// Copyright (c) 2016 Institut fuer Lern-Innovation, GPLv3, see LICENSE
+//
+
+<!-- language file start -->
+copyright#:#Copyright
+copyrights#:#Copyrights
+copyrights_title#:#Copyrights festlegen
+copyrights_description#:#Hier können Sie für alle Inhalte in Ihrer Verantwortung als Ersteller, Kurs- oder Gruppenadministrator das Copyright festlegen.
+other_copyrights#:#Weitere
+undefined_copyright#:#Nicht definiert
+custom_copyright#:#Eigene Angabe
+types#:#Objekt-Typen
+all_types#:#Alle Typen
+any_copyright#:#Beliebig
+without_copyright#:#Ohne Copyright-Angabe
+with_copyright#:#Mit Copyright-Angabe
+save_copyrights#:#Copyrights speichern
+apply_copyright#:#Copyright zuweisen
+copyrights_saved#:#Die geänderten Copyright-Auswahlen wurden gespeichert.
+copyright_applied#:#Das Copyright wurde auf die ausgewählten Objekte übertragen.
+please_select_objects#:#Bitte wählen Sie ein oder mehrere Objekte aus!
+list_own_objects#:#Selbst erstellte Objekte
+list_admin_objects#:#Administrierte Kurse und Gruppen
+list_contents#:#Inhalte listen
+list_contents_of#:#Inhalte von '%s'
+general_note#:#Hinweis: zum Download werden übergeodnete Einstellungen berücksichtigt, d.h. für einen Kursinhalt ohne eigene Angabe gilt die Einstellung des Kurses, bei eigener Angabe gilt diese.
