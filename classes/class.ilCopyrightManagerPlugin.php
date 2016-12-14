@@ -22,7 +22,7 @@ class ilCopyrightManagerPlugin extends ilUserInterfaceHookPlugin
 	 */
 	function getTypeBlacklist()
 	{
-		return array('chtr','feed','cat','catr','crsr','itgr','poll','prg','prtt','webr',
+		return array('chtr','catr','crsr','itgr','feed','poll','prg','prtt','webr',
 			'root','rolf','role','usr',
 			'rcat','rcrs','rwik','rlm','rglo','rfil','rgrp','rtst',
 			'xema','xxco','xlvo','xpdl','xcos');
