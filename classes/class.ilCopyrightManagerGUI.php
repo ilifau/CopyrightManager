@@ -49,10 +49,11 @@ class ilCopyrightManagerGUI
 	public function &executeCommand()
 	{
 		/** @var ilErrorHandling $ilErr */
-		global $ilErr, $lng;
+        /** @var ilObjUser $ilUser */
+		global $ilErr, $ilUser, $lng;
 
 		// catch hack attempts
-		if ($_SESSION["AccountId"] == ANONYMOUS_USER_ID)
+		if ($ilUser->getId() == ANONYMOUS_USER_ID)
 		{
 			$ilErr->raiseError($lng->txt("msg_not_available_for_anon"), $ilErr->MESSAGE);
 		}
